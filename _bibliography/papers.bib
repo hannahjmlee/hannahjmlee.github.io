@@ -1,39 +1,105 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+% ***journals***
+@string{AIJ="Artif.\ Intell."}
+@string{ALIFE="Artif.\ Life"}
+@string{BME="{IEEE} Trans.\ Biomed.\ Eng."}
+@string{IJRR="Int.\ J.\ Robot.\ Res."}
+@string{TRO="{IEEE} Trans.\ Robot."}
+@string{TRA="{IEEE} Trans.\ Robot.\ Automat."}
+@string{TSMC="{IEEE} Trans.\ Sys., Man, Cybern."}
+@string{TPAMI="{IEEE} Trans.\ Patt.\ Analy.\ Mach.\ Intell."}
+@string{TC="{IEEE} Trans.\ Comput."}
+@string{TSSC="{IEEE} Trans.\ Syst.\ Sci.\ Cybern."}
+@string{CACM="Communications of the ACM"}
+@string{IJCGA="Int.\ J.\ Comput.\ Geom.\ \& Appl."}
+@string{JRAS="J.\ Robot.\ Autonom.\ Sys."}
+@string{NSB="Nature Struct.\ Biol."}
+@string{JCB="J.\ Comput.\ Biol."}
+@string{JCC="J.\ Comput.\ Chem."}
+@string{PNAS="Proc.\ Natl.\ Acad.\ Sci.\ USA"}
+@string{PRL="Phys.\ Rev.\ Lett."}
+@string{PB="Physical Biology"}
+@string{JAIR="J.\ Art.\ Robot.\ Res.\ (JAIR)"}
+@string{RAL="{IEEE} Robot.\ Automat.\ Lett.\ (RA-L)"}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+% ***conferences***
+@string{ASME="Proc.\ {ASME} Int.\ Mech.\ Eng.\ Congress and Exhibition"}
+@string{AIM="Proc.\ {IEEE/ASME} Int.\ Conf.\ Adv.\ Mech.\ ({AIM})"}
+@string{ICAR="Proc.\ {IEEE} Int.\ Conf.\ Adv.\ Robot.\ ({ICAR})"}
+@string{ICRA="Proc.\ {IEEE} Int.\ Conf.\ Robot.\ Autom.\ ({ICRA})"}
+@string{CASA="Proc.\ Int.\ Conf.\ Computer Anim.\ Social Agents (CASA)"}
+@string{CSC="Proc.\ {IEEE} Conf.\ Syst.\ Cont."}
+@string{ICAI="Proc.\ Int.\ Conf.\ Artif.\ Intel."}
+@string{IPDPS="Proc.\ {IEEE} Int.\ Parallel and Distributed Processing Symp.\ ({IPDPS})"}
+@string{IROS="Proc.\ {IEEE} Int.\ Conf.\ Intel.\ Rob.\ Syst.\ ({IROS})"}
+@string{FOCS="Proc.\ {IEEE} Symp.\ Found.\ Comp.\ Sci.\ ({FOCS})"}
+@string{RECOMB="Proc.\ Int.\ Conf.\ Comput.\ Molecular Biology ({RECOMB})"}
+@string{PSB="Proc.\ Pacific Symposium of Biocomputing ({PSB})"}
+@string{SIGGRAPH="Proc.\ {ACM} {SIGGRAPH}"}
+@string{PG="Proc.\ Pacific Graphics"}
+@string{SoCG="Proc.\ {ACM} Symp.\ on Computational Geometry (SoCG)"}
+@string{STOC="Proc.\ {ACM} Symp.\ Theory of Computing (STOC)"}
+@string{WRPC="Proc.\ {IEEE} Workshop Randomized Parallel Computing(WRPC)"}
+@string{WAFR="Proc.\ Int.\ Wksp. Alg. Found. Robot. ({WAFR})"}
+@string{IUI="Proc.\ {ACM} Intelligent User Interfaces"}
+@string{VRAIS=" {IEEE} Virtual Reality Annual International Symposium"}
+@string{ISMB="Int.\ Conf.\ on Intelligent Systems for Molecular Biology ({ISMB})"}
+@string{LNCS="Lecture Notes in Computer Science"}
+@string{ISRR="Proc. Int.\ Symp.\ on Robotics Research ({ISRR})"}
+@string{DARS="Int.\ Symp.\ on Distributed Autonomous Robotic Systems ({DARS})"}
+@string{RLP="Proc.\ Int.\ Wksp.\ Robot Learning and Planning ({RSS})"}
+@string{RSS="Proc.\ Robotics: Sci.\ Sys.\ ({RSS})"}
+@string{VRST="Proc.\ {ACM} Symp.\ on Virtual Reality Software and Technology"}
+@string{ACMBCB="{ACM} Conference on Bioinformatics, Computational Biology
+and Biomedicine"}
+@string{ICAPS="Proc.\ Int.\ Conf.\ on Automated Planning and Scheduling ({ICAPS})"}
+
+% ***book collections and series***
+@string{AFR="Alg. Found. Robot."}
+@string{STAR="Springer Tracts Adv. Robot."}
+@string{SPAR="Springer Proc. Adv. Robot."}
+
+% ***Labs and Centers***
+@string{PARASOL="Parasol Lab, Dept.\ of Computer Science, University of Illinois Urbana-Champaign"}
+
+@article{lee2021parallel,
+  title={Parallel hierarchical composition conflict-based search for optimal multi-agent pathfinding},
+  author={Lee, Hannah and Motes, James and Morales, Marco and Amato, Nancy M},
+  journal={IEEE Robotics and Automation Letters},
+  volume={6},
+  number={4},
+  pages={7001--7008},
+  year={2021},
+  publisher={IEEE},
+  preview={hccbs.png},
+  selected={true},
+  html={https://ieeexplore.ieee.org/abstract/document/9483630},
+  pdf={PHC-CBS.pdf},
+  abstract={In this letter, we present the following optimal multi-agent pathfinding (MAPF) algorithms: Hierarchical Composition Conflict-Based Search, Parallel Hierarchical Composition Conflict-Based Search, and Dynamic Parallel Hierarchical Composition Conflict-Based Search. MAPF is the task of finding an optimal set of valid path plans for a set of agents such that no agents collide with present obstacles or each other. The presented algorithms are an extension of Conflict-Based Search (CBS), where the MAPF problem is solved by composing and merging smaller, more easily manageable subproblems. Using the information from these subproblems, the presented algorithms can more efficiently find an optimal solution. Our three presented algorithms demonstrate improved performance for optimally solving MAPF problems consisting of many agents in crowded areas while examining fewer states when compared with CBS and its variant Improved Conflict-Based Search.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{motes2020multi,
+  title={Multi-robot task and motion planning with subtask dependencies},
+  author={Motes, James and Sandstr{\"o}m, Read and Lee, Hannah and Thomas, Shawna and Amato, Nancy M},
+  journal={IEEE Robotics and Automation Letters},
+  volume={5},
+  number={2},
+  pages={3338--3345},
+  year={2020},
+  publisher={IEEE},
+  preview={tmpcbs.png},
+  selected={true},
+  html={https://ieeexplore.ieee.org/abstract/document/9013090}, 
+  abstract={We present a multi-robot integrated task and motion method capable of handling sequential subtask dependencies within multiply decomposable tasks. We map the multi-robot pathfinding method, Conflict Based Search, to task planning and integrate this with motion planning to create TMP-CBS. TMP-CBS couples task decomposition, allocation, and planning to support cases where the optimal solution depends on robot availability and inter-team conflict avoidance. We show improved planning time for simpler task sets and generate optimal solutions w.r.t. the state space representation for a broader range of problems than prior methods.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
 
-@article{PhysRev.47.777,
+
+could add "slides" and "video" and "poster" -- see the customize in alfolio
+
+article{PhysRev.47.777,
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
   author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
@@ -58,57 +124,4 @@
   additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
   annotation={* Example use of superscripts<br>† Albert Einstein},
   selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
 }
