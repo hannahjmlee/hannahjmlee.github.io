@@ -64,6 +64,45 @@ and Biomedicine"}
 % ***Labs and Centers***
 @string{PARASOL="Parasol Lab, Dept.\ of Computer Science, University of Illinois Urbana-Champaign"}
 
+@unpublished{prism,
+  title={PRISM: Online Decentralized Multi-Agent Pathfinding with Rapid Information Sharing using Motion Constraints},
+  author={Lee, Hannah and Serlin, Zachary and Morales, Marco and Amato, Nancy M},
+  year={2024},
+  note={Manuscript submitted and under review},
+  booktitle={International Workshop on the Algorithmic Foundations of Robotics},
+  organization={Springer},
+  preview={prism.png},
+  selected={true},
+  abstract={We present PRISM (Pathfinding with Rapid Information Sharing using Motion Constraints), a novel decentralized algorithm for the multi-task multi-agent pathfinding (MT-MAPF) challenge. PRISM enables numerous agents to concurrently plan safe and efficient paths for multiple tasks while avoiding collisions, using a rapid communication strategy to exchange motion constraint information via info packets. Info packets enhance cooperative pathfinding and maintain situational awareness among agents even when direct communication ceases.
+
+We empirically evaluated PRISM in five environments across over 20 random scenarios, comparing it to the centralized Conflict-Based Search (CBS). Our tests, involving up to 30 agents and 60 tasks, demonstrate PRISM's superior scalability and consistently high-quality solutions. Despite low connectivity, PRISM matches CBS in solution quality while achieving faster computation times. Its decentralized approach significantly lightens each agent's computational load, supporting scalable deployments in large-scale environments. Our results affirm PRISM's robustness, scalability, and effectiveness in complex pathfinding scenarios. }
+}
+
+
+@unpublished{cbsanalysis,
+  title={An Analysis of Constraint-Based Multi-Agent Pathfinding Algorithms},
+  author={Lee, Hannah and Motes, James and Morales, Marco and Amato, Nancy M},
+  year={2024},
+  note={Manuscript submitted and under review},
+  journal={IEEE Transactions on Robotics},
+  preview={cbsanalysis.png},
+  selected={true},
+  abstract={This study delves into characteristics defining constraints as conservative or aggressive in constraint-based search multi-agent pathfinding (MAPF) algorithms. We provide insights into their search behavior, focusing on Conflict-Based Search and Priority-Based Search. Through systematic examination, we recommend aggressive constraints for scenarios with numerous agents or high resolutions, and conservative constraints for prioritizing solution quality. Findings are synthesized in a decision flowchart, aiding users in selecting suitable constraints. Recommendations extend to Multi-Robot Motion Planning (MRMP), emphasizing the importance of considering topological features alongside problem, solution, and representation features. This study informs the design of future MAPF and MRMP algorithms by guiding choices based on constraint classification. A comprehensive exploration of the study, including raw data and map performance, is available in our public Github Repository}
+}
+
+@inproceedings{lee2024hcmdc,
+  title={Distributed constraint-based search using multi-hop communication},
+  author={Lee, Hannah and Motes, James and Serlin, Zachary and Morales, Marco and Amato, Nancy M},
+  year={2024},
+  publisher={IEEE},
+  booktitle={Proceedings of the IEEE International Conference on Robotics and Automation (ICRA@40)},
+  pdf={HCMDC.pdf},
+  preview={hcmdc.png},
+  selected={true},
+  abstract={This extended abstract explores constraint-based search algorithms for multi-agent pathfinding (MAPF) in distributed settings with multi-hop communication. Traditional approaches typically assume centralized network-wide planning without defining individual agents' roles. Our research innovates by distributing the planning process among agents, using constraint-based methods for efficient and safe pathfinding. We present Hierarchical Composition for Multi-Hop Distributed Communication (HCMDC), a framework that strategically determines communication paths within distributed networks along which the MAPF problem is built and solved. This initial investigation lays the groundwork for more nuanced and effective strategies in distributed MAPF, highlighting the potential for improved coordination and communication among agents in complex networks by using constraint-based search.}
+}
+
+
 @article{lee2021parallel,
   title={Parallel hierarchical composition conflict-based search for optimal multi-agent pathfinding},
   author={Lee, Hannah and Motes, James and Morales, Marco and Amato, Nancy M},
@@ -91,7 +130,7 @@ and Biomedicine"}
   publisher={IEEE},
   preview={tmpcbs.png},
   selected={true},
-  html={https://ieeexplore.ieee.org/abstract/document/9013090}, 
+  html={https://ieeexplore.ieee.org/abstract/document/9013090},
   abstract={We present a multi-robot integrated task and motion method capable of handling sequential subtask dependencies within multiply decomposable tasks. We map the multi-robot pathfinding method, Conflict Based Search, to task planning and integrate this with motion planning to create TMP-CBS. TMP-CBS couples task decomposition, allocation, and planning to support cases where the optimal solution depends on robot availability and inter-team conflict avoidance. We show improved planning time for simpler task sets and generate optimal solutions w.r.t. the state space representation for a broader range of problems than prior methods.}
 }
 

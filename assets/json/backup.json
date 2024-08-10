@@ -68,98 +68,71 @@
   ],
   "work": [
     {
-      "position": "Graduate Research Assistant",
-      "name": "Parasol Lab",
+      "name": "Graduate Research Assistant - Parasol Lab",
       "startDate": "2020-08",
-      "url": "https://parasollab.web.illinois.edu/",
+      "endDate": "2025-05",
       "summary": "As a graduate student working with Dr. Nancy M. Amato, I develop novel hybrid task and motion planning algorithms that focus on scalability, performance, and robustness in multi-robot systems. In my research, we have explored ways to incorporate distributed and online planning for constraint-based search algorithms to expand their capabilities to real-world deployments. Additionally, we have included the parallelization of these methods using multithreading to furhter improve their performance in these distributed scnearios. As a member of the Parasol Lab, I have also helped lead the open-source project that works to open source the Parasol Planning Library (PPL), a C++ library that develops novel planning algorithms."
     },
     {
-      "position": "Student Technical Assistant",
-      "name": "MIT Lincoln Laboratory",
+      "name": "Student Technical Assistant - MIT Lincoln Laboratory",
       "startDate": "2023-05",
-      "url": "https://www.ll.mit.edu/",
       "summary": "At MIT Lincoln Laboratory, I develop advanced multi-robot collaboration algorithms. Beginning as an intern in the summer of 2023, I have continued as a student technical assistant, focusing on creating planning frameworks and hierarchies for decentralized settings, online planning, and volatile environments, specifically for surface and drone vehicle coordination."
     },
     {
-      "position": "DREU Student Researcher",
-      "name": "Parasol Lab",
+      "name": "DREU Student Researcher - Parasol Lab",
       "startDate": "2019-05",
       "endDate": "2020-08",
-      "url": "https://parasollab.web.illinois.edu/",
       "summary": "As a participant in the Distributed Research Experience for Undergraduates (DREU) program, I worked as a summer intern researcher at the Parasol Lab. Using C++, I developed the Task and Motion Planning Conflict-Based Search algorithm, an optimal multi-agent multi-task planning solution for payload transportation tasks with complex dependencies using heterogeneous robot teams. I continued my research with the lab throughout my undergraduate year, eventually joining the Parasol Lab for graduate school."
     },
     {
-      "position": "Undergraduate Student Researcher",
-      "name": "MInDS@Mines Lab",
+      "name": "Undergraduate Student Researcher - MInDS@Mines Lab",
       "startDate": "2018-11",
       "endDate": "2019-08",
-      "url": "http://minds.mines.edu/",
       "summary": "At the MInDS@Mines Lab led by Dr. Hua Wang, I worked as an undergraduate researcher. MInDS focuses on Machine learning, Informatics, and Data Science. My role involved assisting graduate students in applying machine learning techniques to analyze complex biological data from diverse sources, developing novel algorithms for large-scale heterogeneous data sets."
     },
     {
-      "position": "Software Intern",
-      "name": "Ricoh USA, Inc.",
+      "name": "Software Intern - Ricoh USA, Inc.",
       "startDate": "2018-06",
       "endDate": "2018-08",
-      "url": "https://www.ricoh-usa.com/en",
       "summary": "As a software intern at Ricoh, I utilized JavaScript and Django to redesign an automated testing website for simulating physical prints made by cutsheet printers, enhancing the efficiency, accuracy, and quality of prints. My improvements to the database functionality and user interface significantly increased the efficiency and functionality of their testing software."
     },
     {
-      "position": "CS Capstone",
-      "name": "Uber Technologies, Inc.",
+      "name": "CS Capstone - Uber Technologies, Inc.",
       "startDate": "2018-05",
       "endDate": "2018-06",
-      "url": "https://uber.com/",
       "summary": "During our CS Capstone project with Uber, we developed a proof-of-concept phone application that verifies user locations by creating and comparing 3D models from 2D images. We automated image processing using Python and developed a mobile application with Java to capture and dispatch images to our testing server, utilizing openMVG, openSFM, and MeshLab for 3D model creation."
     },
     {
-      "position": "Summer Intern",
-      "name": "Computer Science Department",
+      "name": "Summer Intern - Computer Science Department",
       "startDate": "2017-05",
       "endDate": "2017-08",
-      "url": "https://www.mines.edu/",
       "summary": "As a summer intern for the CS department, I organized and led outreach events, summer camps, and K-12 teacher workshops. I coordinated CS career events for high school students, presented at STEM fairs, and conducted summer camps teaching middle school students to code in Racket and Java. I also taught Python Computing: Building a Sensor System (CSCI250) and assisted with K-12 workshops, including Python Training Camp and Computer Science Professional Development Week."
     },
     {
-      "position": "Lead Instructor",
-      "name": "AI4ALL",
+      "name": "Lead Instructor - AI4ALL",
       "startDate": "2021-01",
-      "url": "https://ai-4-all.org/",
       "summary": "Starting as a teaching assistant and progressing to lead instructor, I work with AI4ALL, a program aimed at diversifying the AI workforce. I taught the Discover AI course from 2021 to 2023 and now teach the Ignite AI course, covering basic AI and ML concepts and ethics. As a lead instructor, I create course materials, present interactive workshops, mentor new instructors, and manage course logistics."
     },
     {
-      "position": "Adjunct Professor",
-      "name": "Computer Science Department",
+      "name": "Adjunct Professor - CSCI261",
       "startDate": "2020-01",
       "endDate": "2020-05",
-      "url": "https://www.mines.edu/",
       "summary": "After graduating from Colorado School of Mines, I taught CSCI 261: Programming Concepts as an adjunct professor during the spring semester before starting graduate school. This introductory C++ course focused on core programming concepts for students from various majors."
     },
     {
-      "position": "Teaching Assistant",
-      "name": "Computer Science Department",
+      "name": "Teaching Assistant - Computer Science Department",
       "startDate": "2017-01",
       "endDate": "2020-05",
-      "url": "https://www.mines.edu/",
       "summary": "As an undergraduate at the Colorado School of Mines, I worked as a teaching assistant for CSCI 101: Introduction to Computer Science and CSCI 262: Data Structures. My responsibilities included record-keeping, classroom instruction, developing classroom materials, and assisting students with homework, projects, and exam preparation."
     },
     {
-      "position": "Teaching Assistant",
-      "name": "DECTech",
+      "name": "Teaching Assistant - DECTech",
       "startDate": "2017-08",
       "endDate": "2019-12",
-      "url": "https://tech.mines.edu/",
       "summary": "DECTech (Discover, Explore, Create, Technology) is an outreach program that introduces grade school girls to STEM topics and careers. As a teaching assistant, I taught various STEM topics through weekly interactive activities and helped manage the DECTech website."
     }
   ],
   "publications": [
-    {
-      "name": "Distributed Constraint-Based Search using Multi-Hop Communication",
-      "publisher": "IEEE Conference on Robotics and Automation (ICRA@40)",
-      "releaseDate": "2024",
-      "summary": "This extended abstract explores constraint-based search algorithms for multi-agent pathfinding (MAPF) in distributed settings with multi-hop communication. Traditional approaches typically assume centralized network-wide planning without defining individual agents' roles. Our research innovates by distributing the planning process among agents, using constraint-based methods for efficient and safe pathfinding. We present Hierarchical Composition for Multi-Hop Distributed Communication (HCMDC), a framework that strategically determines communication paths within distributed networks along which the MAPF problem is built and solved. This initial investigation lays the groundwork for more nuanced and effective strategies in distributed MAPF, highlighting the potential for improved coordination and communication among agents in complex networks by using constraint-based search."
-    },
     {
       "name": "PRISM: Online Decentralized Multi-Agent Pathfinding with Rapid Information Sharing using Motion Constraints",
       "publisher": "Submitted and under review for the Workshop on the Algorithmic Foundations of Robotics (WAFR)",
