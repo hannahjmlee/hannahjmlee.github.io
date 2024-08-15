@@ -4,7 +4,7 @@ github_users:
 repo_description_lines_max: 5
 
 github_repos:
-  - hannahjmlee/MANA-Core
   - hannahjmlee/MANA-Labs
+  - hannahjmlee/MANA-Core
   - hannahjmlee/constraint-mapf-analysis
   - parasollab/open-ppl
