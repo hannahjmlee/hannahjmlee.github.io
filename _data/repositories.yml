@@ -6,6 +6,6 @@ repo_description_lines_max: 5
 github_repos:
   - hannahjmlee/MANA-Labs
   - hannahjmlee/MANA-Core
-  - hannahjmlee/constraint-mapf-analysis
   - hannahjmlee/BenchmarkGenerator
+  - hannahjmlee/constraint-mapf-analysis
   - parasollab/open-ppl
